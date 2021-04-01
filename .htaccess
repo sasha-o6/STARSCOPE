@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^get\-starscopemonocular\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.get\-starscopemonocular\.com$
+RewriteRule ^order\/?$ "https\:\/\/go\.get\-starscopemonocular\.com\/" [R=302,L]
+
