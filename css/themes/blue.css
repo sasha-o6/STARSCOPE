@@ -76,7 +76,7 @@ header.row .navbar.is-scrolling .nav li a {
 }
 
 header.row .navbar.is-scrolling .nav li.active a {
-  color: #0c4b88;
+  color: rgb(3,253,252);
 }
 
 header.alt-bg .navbar-default .nav > li > a {
