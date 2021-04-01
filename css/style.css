@@ -989,7 +989,6 @@ textarea.form-control {
 
 @media (max-width: 991px) {
   .navbar-default .navbar-collapse {
-    background: #fff;
     margin: 20px 0px;
     border-radius: 5px;
   }
