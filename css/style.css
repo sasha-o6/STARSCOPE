@@ -491,6 +491,10 @@ textarea.form-control {
   border-radius: 10px;
 }
 
+.navbar .btn-warning:hover{
+  color: rgb(3,253,252) !important;
+}
+
 .nav-pills > li > a {
   background-color: #eee;
   padding: 10px 20px 7px;

@@ -103,7 +103,7 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 
 .navbar-default .nav li.active a {
   background: none;
-  color: #0c4b88 !important;
+  color: rgba(3, 253, 252) !important;
 }
 
 .navbar-default .navbar-nav > .open > a,
