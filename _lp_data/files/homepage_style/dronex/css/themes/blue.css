@@ -149,8 +149,7 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 }
 
 .top-banner .btn.video span {
-  -webkit-box-flex: 1;
-          flex-grow: 1;
+  flex-grow: 1;
   flex-basis: 100%;
   text-align: left;
 }
@@ -329,19 +328,14 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
   background: #f8fbfd;
   position: relative;
   overflow: hidden;
-  display: -webkit-box;
   display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 771px) {
   .left-right-pictures {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -391,7 +385,6 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 /*=====The Benefits=====*/
 
 .the-benefits .benefit-notes {
-  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
 }
@@ -559,20 +552,15 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 
 .the-watch .container {
   padding: 40px 25px;
-  display: -webkit-box;
   display: flex;
-  -webkit-box-align: end;
-          align-items: flex-end;
+  align-items: flex-end;
   position: relative;
 }
 
 @media (max-width: 991px) {
   .the-watch .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-            flex-direction: column-reverse;
-    -webkit-box-align: center;
-            align-items: center;
+    flex-direction: column-reverse;
+    align-items: center;
   }
 }
 
@@ -623,12 +611,9 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 /*=====Reviews=====*/
 
 .reviews .flex {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: justify;
-          justify-content: space-between;
+  align-items: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -681,10 +666,8 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 }
 
 .review .name {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   position: absolute;
   bottom: 15px;
   left: 25px;
@@ -711,12 +694,9 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
   line-height: 1.28;
   text-transform: uppercase;
   color: #ffffff;
-  display: -webkit-box;
   display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   position: relative;
   z-index: 1;
@@ -735,10 +715,8 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 }
 
 .review .points {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   margin: 20px 25px 25px;
 }
 
@@ -753,12 +731,9 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
   height: 33px;
   border-radius: 10px;
   background-color: #ffd200;
-  display: -webkit-box;
   display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   font-size: 25px;
   font-weight: bold;
   line-height: 1.28;
@@ -767,7 +742,6 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 }
 
 .review .points .stars {
-  display: -webkit-box;
   display: flex;
 }
 
