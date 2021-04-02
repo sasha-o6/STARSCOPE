@@ -51,7 +51,7 @@ a:focus {
 /*=====Header=====*/
 
 header.row .navbar {
-  background: rgb(14, 14, 14);  
+  background: white;
 }
 
 header.row .navbar .navbar-header .navbar-toggle {
@@ -103,7 +103,7 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 
 .navbar-default .nav li.active a {
   background: none;
-  color: rgba(3, 253, 252) !important;
+  color: #84D32E !important;
 }
 
 .navbar-default .navbar-nav > .open > a,
@@ -202,7 +202,7 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 }
 
 .section-header h2 {
-  color: rgb(3,253,252);
+  color: #84D32E;
   line-height: 1.3;
   margin-bottom: 0;
 }
@@ -232,7 +232,7 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 /*=====The Product=====*/
 
 .feature-note {
-  color: white;
+  color: #84D32E;
 }
 
 .feature-note .indicator .plus-icon:before {
@@ -428,7 +428,7 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 }
 
 .benefit .media .media-body h4 {
-  color: #03FDFC;
+  color: #84D32E;
   font-size: 19px;
   line-height: 1.6;
 }

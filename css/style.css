@@ -53,11 +53,11 @@ Table of Content:
 
 body {
   position: relative;
-  background: rgb(14, 14, 14);
+  background: white;
 }
 
 section {
-  background: rgb(14, 14, 14);
+  background: white;
 }
 
 section.row,
@@ -92,7 +92,6 @@ h2,
 
 p {
   font: 300 14px/26px "Poppins", sans-serif;
-  color: white;
 }
 
 li {
@@ -174,7 +173,7 @@ li {
 .btn {
   font: 300 12px/26px "Poppins", sans-serif;
   padding: 0 35px;
-  background-color: #03fdfc;
+  background-color: 132,211,46;
   border: 2px solid transparent;
   border-radius: 15px;
 }
@@ -182,9 +181,9 @@ li {
 .btn:hover,
 .btn:focus {
   background: transparent;
-  color: #03fdfc;
+  color: #84D32E;
   border-color: transparent;
-  box-shadow: 0px 0px 10px 5px rgba(3, 253, 252, 0.3);
+  box-shadow: 0px 0px 10px 5px rgba(132,211,46, 0.3);
 }
 
 .btn-primary {
@@ -486,10 +485,12 @@ textarea.form-control {
 .navbar .btn-warning {
   color: black;
   border-radius: 10px;
+  background: rgb(132,211,46);
 }
 
 .navbar .btn-warning:hover {
-  color: rgb(3, 253, 252) !important;
+  color: rgb(132,211,46) !important;
+  background-color: transparent;
 }
 
 .nav-pills > li > a {
@@ -869,7 +870,6 @@ textarea.form-control {
   padding: 0 17px;
   text-transform: uppercase;
   font: 500 16px/40px "Poppins", sans-serif;
-  color: white;
 }
 
 .top-banner {
@@ -1919,6 +1919,7 @@ header.video-bg {
   max-width: 50%;
   margin: 40px auto 0;
   text-align: center;
+  background-color: #84D32E;
 }
 
 @media (max-width: 991px) {
@@ -1958,7 +1959,7 @@ header.video-bg {
 } */
 
 .fa-check{
-  color: rgb(3,253,252);
+  color: #84D32E;
   margin-right: 17px;
 }
 
