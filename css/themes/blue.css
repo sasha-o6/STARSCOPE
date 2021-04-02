@@ -416,6 +416,17 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
   padding-top: 15px;
 }
 
+@media (max-width: 767px) {
+  .benefit .media .media-body {
+    padding-top: 0;
+  }
+
+  .benefit .media .media-left{
+    padding-right: 5px;
+    vertical-align: middle;
+  }
+}
+
 .benefit .media .media-body h4 {
   color: #03FDFC;
   font-size: 19px;
@@ -504,16 +515,23 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 }
 
 @media (max-width: 767px) {
+  .the-watch {
+    text-align: center;
+  }
+
   .the-watch h2 {
     font-size: 26px;
     font-weight: bold;
-    color: #374048;
   }
 }
 
 @media (max-width: 767px) {
   .the-watch .section-header {
     margin-bottom: 20px;
+    text-align: center;
+  }
+  .the-watch .section-header::after{
+    margin-left: auto;
   }
 }
 
@@ -529,6 +547,7 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 @media (max-width: 767px) {
   .the-watch .section-header p {
     font-size: 19px;
+    margin-left: auto;
   }
 }
 
@@ -561,6 +580,7 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
   .the-watch .container {
     flex-direction: column-reverse;
     align-items: center;
+    padding-top: 30px;
   }
 }
 
@@ -900,6 +920,6 @@ footer.row .menu-rights p {
 
 .owl-next,
 .owl-prev {
-  background-color: #0c4b88;
+  background-color: rgb(3,253,252);
 }
 
