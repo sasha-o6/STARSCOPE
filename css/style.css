@@ -182,12 +182,10 @@ li {
 .btn:hover,
 .btn:focus {
   background: transparent;
-  color: #03FDFC;
+  color: #03fdfc;
   border-color: transparent;
   box-shadow: 0px 0px 10px 5px rgba(3, 253, 252, 0.3);
 }
-
-
 
 .btn-primary {
   border: none;
@@ -305,11 +303,10 @@ li {
 
 .btn-warning:hover,
 .btn-warning:focus {
-  
 }
 
 .btn-warning.btn-lg {
-  padding: 0 85px;
+  padding: 0 60px;
   border-radius: 60px;
   font: 500 27px/72px "Poppins", sans-serif;
   margin-bottom: 77px;
@@ -486,13 +483,13 @@ textarea.form-control {
   NAV TABS
   ===============================================*/
 
-.navbar .btn-warning{
+.navbar .btn-warning {
   color: black;
   border-radius: 10px;
 }
 
-.navbar .btn-warning:hover{
-  color: rgb(3,253,252) !important;
+.navbar .btn-warning:hover {
+  color: rgb(3, 253, 252) !important;
 }
 
 .nav-pills > li > a {
@@ -1332,8 +1329,27 @@ header.video-bg {
 
 /*=========The Product==========*/
 
+.img-side .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-side img{
+  flex-basis: 40%;
+  max-width: 40%;
+}
+
+.img-side .fadeInUp{
+  flex-basis: 50%;
+}
+
+.the-product:first-child {
+  padding: 90px 0 100px;
+}
+
 .the-product {
-  padding: 90px 0 130px;
+  padding: 50px 0;
 }
 
 @media (max-width: 767px) {
@@ -1355,7 +1371,7 @@ header.video-bg {
   position: relative;
   max-width: 555px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto 100px;
 }
 
 .feature-note {
@@ -1882,6 +1898,13 @@ header.video-bg {
   padding-top: 63px;
 }
 
+.the-watch-features .btn {
+  display: block;
+  max-width: 50%;
+  margin: 40px auto 0;
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   .the-watch-features {
     float: left;
@@ -1908,14 +1931,19 @@ header.video-bg {
   margin-top: 22px;
 }
 
-.the-watch-features ul li:before {
+/* .the-watch-features ul li:before {
   width: 32px;
   height: 32px;
   margin-right: 17px;
   content: "";
-  background: url("../../../../../../i.imgur.com/b8b9tVG.png") no-repeat scroll
-    0 0;
+  background-image: url("../i.imgur.com/check.svg") no-repeat scroll 0 0;
+
   float: left;
+} */
+
+.fa-check{
+  color: rgb(3,253,252);
+  margin-right: 17px;
 }
 
 /*=========Split Columns==========*/
